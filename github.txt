@@ -1,0 +1,22 @@
+git# install github
+
+# linux : 
+sudo apt-get install git
+
+#create a directory
+mkdir test
+
+# clone the project in your computer: 
+git clone <http:url>
+
+# to see whats the difference between github and your git :
+git status 
+
+# To add any changes or any new files by name :
+git add <file_name>
+
+# To add the file or changes in your project
+git commit -m <message_for_fellow_programmers>
+
+# upload it to the github repository:
+git push origin master
